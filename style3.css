@@ -1,0 +1,120 @@
+/* p{
+    line-height: 100px;
+    background-color: red;
+}
+h1{
+    background-color: green;
+} */
+/* p{
+    font-family: fantasy;
+} */
+
+/* ul{
+    list-style:square;
+} */
+
+/* h1{ */
+    /* border: 2px solid red; */
+    /* margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 50px; */
+    /* margin:100 50;
+    padding: 40px;
+} */
+
+/* outline for input tag */
+/* outline, outline-color */
+
+/* p{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+} */
+
+/* p{
+    font-size: 50px;
+    text-shadow: 20px 15px 10px  rgb(137, 25, 25);
+} */
+
+/* shudo class */
+/* active, focus, hover, first-child, last-child */
+
+/* p:hover{
+    color: red;
+    font-size: 50px;
+}
+ */
+
+/* .demo{
+    width:600px;
+    height:150px;
+    margin:100px auto;
+    background-color: blue;
+    text-align: center;
+    display:flex;
+} */
+/* .demo .demo-inner{
+    width:200px;
+    height: 100px;
+    background: red;
+    color:white;
+    font-size: 24px;
+    position: relative;
+    top:10px;
+    right:10px;
+} */
+/* .demo::after{
+
+    content:'';
+    width:100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+
+}
+.demo::before{
+    content:'';
+    width:100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    
+} */
+
+/* .demo-inner:nth-child(1){
+    background-color:aliceblue;
+    width:100px;
+    height:20px;
+    flex-basis: 40%;
+}
+.demo-inner:nth-child(2){
+    background-color:rgb(37, 49, 59);
+    width:100px;
+    height:20px;
+    flex-basis: 30%;
+    flex-grow: 2;
+}
+.demo-inner:nth-child(3){
+    background-color:rgb(0, 166, 44);
+    width:100px;
+    height:20px;
+}
+.demo-inner:nth-child(4){
+    background-color:rgb(62, 145, 219);
+    width:100px;
+    height:20px;
+} */
+
+/* justify-content: for align horizontally
+align-items: for align vertically */
+
+/* flex-direction: for horizontally or vertically and order */
+/* flex-wrap: to wrap the things means to adjust properly */
+
+/* transition: to give delay */
+
+/* animation: to give animation */
+
+

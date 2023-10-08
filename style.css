@@ -1,0 +1,18 @@
+h2{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.material{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    background-color:lightblue;
+}
+body{
+    background-color: aquamarine;
+}
+.numbers{
+    color: black;
+    background-color: whitesmoke;
+}
