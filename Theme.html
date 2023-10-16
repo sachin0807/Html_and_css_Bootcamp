@@ -11,7 +11,7 @@
 <body>
     <div class="hero">
         <nav>
-            <img src="logo.png" class="logo">
+            <img src="images/logo.png" class="logo">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -19,7 +19,7 @@
                 <li><a href="">Services</a></li>
                 <li><a href="">Hire Me</a></li>
             </ul>
-            <img src="moon.png" id="icon">
+            <img src="images/moon.png" id="icon">
         </nav>
         <div class="info">
             <h1>I'm <span>Kate</span> Amelia</h1>
@@ -28,8 +28,8 @@
             <a href="">Download CV</a>
         </div>
         <div class="img-box">
-            <img src="pattern.png" class="back-img">
-            <img src="girl.png" class="main-img">
+            <img src="images/pattern.png" class="back-img">
+            <img src="images/girl.png" class="main-img">
         </div>
         <div class="social-links">
             <a href=""><i class="fa-brands fa-linkedin"></i></a>
@@ -53,10 +53,10 @@
             let localData=localStorage.getItem("theme");
 
             if(localData == "light"){
-                icon.src="moon.png";
+                icon.src="images/moon.png";
                 document.body.classList.remove("dark-theme");
             }else if(localData == "dark"){
-                icon.src="sun.png";
+                icon.src="images/sun.png";
                 document.body.classList.add("dark-theme");
             }
             
@@ -67,10 +67,10 @@
 
                 // Change the icon based on the theme
                 if(document.body.classList.contains("dark-theme")){
-                    icon.src = "sun.png";
+                    icon.src = "images/sun.png";
                     localStorage.setItem("theme","dark");
                 } else {
-                    icon.src = "moon.png";
+                    icon.src = "images/moon.png";
                     localStorage.setItem("theme","light");
                 }
             }
